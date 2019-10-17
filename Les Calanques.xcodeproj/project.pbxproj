@@ -56,15 +56,39 @@
 		E92D464B2358631700224E49 /* Les Calanques */ = {
 			isa = PBXGroup;
 			children = (
+				E92D4660235865EA00224E49 /* Modele */,
+				E92D46612358662100224E49 /* Vue */,
+				E92D46622358662700224E49 /* Controller */,
 				E92D464C2358631700224E49 /* AppDelegate.swift */,
-				E92D464E2358631700224E49 /* FirstViewController.swift */,
-				E92D46502358631700224E49 /* SecondViewController.swift */,
 				E92D46522358631700224E49 /* Main.storyboard */,
 				E92D46552358631900224E49 /* Assets.xcassets */,
 				E92D46572358631900224E49 /* LaunchScreen.storyboard */,
 				E92D465A2358631900224E49 /* Info.plist */,
 			);
 			path = "Les Calanques";
+			sourceTree = "<group>";
+		};
+		E92D4660235865EA00224E49 /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modele;
+			sourceTree = "<group>";
+		};
+		E92D46612358662100224E49 /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vue;
+			sourceTree = "<group>";
+		};
+		E92D46622358662700224E49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E92D464E2358631700224E49 /* FirstViewController.swift */,
+				E92D46502358631700224E49 /* SecondViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
